@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon.ico"
+      type="image/x-icon" />
+    <title>Life</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+    <script
+      src="./main.js"
+      defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Conway's Game of Life</h1>
+      <span>
+        Original @
+        <a
+          href="https://conwaylife.com/"
+          target="_blank">
+          ConwayLife.com
+        </a>
+      </span>
+    </header>
+    <main>
+      <div class="input-group">
+        <label for="once">
+          <input
+            type="checkbox"
+            id="once" />
+          ONE TICK</label
+        >
+        <button id="game-play">PLAY</button>
+        <button id="game-reload">RELOAD</button>
+      </div>
+      <section id="game-board"></section>
+    </main>
+  </body>
+</html>
